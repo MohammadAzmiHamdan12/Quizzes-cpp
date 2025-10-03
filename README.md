@@ -4,36 +4,277 @@
 
 ---
 
-## 🧠 Part 1: Theoretical Questions
+## 🧠 Part 1: Theoretical & Fill-in-the-Blank
 
-| # | السؤال | الخيارات |
-| :-- | :--- | :--- |
-| **Q1** | Which header file is required for input and output operations in C++? | `iostream` |
-| **Q2** | Which of the following is a reserved word in C++? | `while` |
-| **Q5** | Fill the missing code to declare a pointer to integer named 'ptr': `____ ptr;` | `int *ptr;` |
-| **Q7** | Which operator is used for conditional (ternary) operation? | `?:` |
-| **Q9** | Which function reads a line from input including spaces? | `getline` |
-| **Q12**| Which is the correct way to declare a float variable? | `float x = 1.0;` |
-| **Q14**| Complete the code to define a function that returns int: `____ myFunction() { return 5; }` | `int` |
-| **Q16**| Which of these is correct for dynamic memory allocation of an int? | `int *p = new int;` |
-| **Q18**| Which is correct way to declare a one-dimensional array of size 5? | `int arr[5];` |
-| **Q20**| Complete the code to read input from user into variable 'num': `____ num;` | `cin >>` |
-| **Q22**| Which of these is correct for defining a constant in C++? | `const int x = 10;` |
-| **Q24**| Which operator is used for accessing members of a structure through a pointer? | `->` |
-| **Q26**| Complete the for loop header: `for(____) { ... }` | `int i=0; i<5; i++` |
-| **Q28**| Which function frees dynamically allocated memory? | `delete` |
-| **Q30**| Complete the code to open a file for writing: `ofstream file; file.____("data.txt");` | `open` |
-| **Q32**| Which of the following is correct for declaring a double variable? | `double num = 3.14;` |
-| **Q34**| Complete the code to read a character from user: `char ch; ____ >> ch;` | `cin` |
-| **Q36**| Which of the following is correct for a two-dimensional array of 2x3? | `int arr[2][3];` |
-| **Q38**| Which keyword defines a variable that keeps its value between function calls? | `static` |
-| **Q40**| Complete the code to define a function that returns nothing: `____ myFunction() { ... }` | `void` |
-| **Q42**| Which of these operators is used for incrementing a value by 1? | `++` |
-| **Q44**| Which stream is used to write data to a file? | `ofstream` |
-| **Q46**| Complete code to include iomanip header: `____` | `#include <iomanip>` |
-| **Q48**| Which of the following is correct to declare an enum? | `enum Color {Red, Green, Blue};` |
-| **Q50**| Complete code to deallocate dynamic memory: `int *ptr = new int; ____ ptr;` | `delete` |
-| **Q52**| Which is correct way to declare a pointer to double? | `double *ptr;` |
+<details>
+  <summary><strong>Q1: Which header file is required for input and output operations in C++?</strong></summary>
+  
+  - [ ] `math.h`
+  - [x] `iostream`
+  - [ ] `string`
+  - [ ] `stdio.h`
+</details>
+
+<details>
+  <summary><strong>Q2: Which of the following is a reserved word in C++?</strong></summary>
+  
+  - [ ] `myVariable`
+  - [x] `while`
+  - [ ] `number1`
+  - [ ] `getInput`
+</details>
+
+<details>
+  <summary><strong>Q5: Fill the missing code to declare a pointer to integer named 'ptr'.</strong></summary>
+  
+  ```cpp
+  ____ ptr;
+  ```
+  - [ ] `int &ptr;`
+  - [x] `int *ptr;`
+  - [ ] `pointer int ptr;`
+  - [ ] `int ptr;`
+</details>
+
+<details>
+  <summary><strong>Q7: Which operator is used for conditional (ternary) operation?</strong></summary>
+  
+  - [ ] `:`
+  - [x] `?:`
+  - [ ] `++`
+  - [ ] `==`
+</details>
+
+<details>
+  <summary><strong>Q9: Which function reads a line from input including spaces?</strong></summary>
+  
+  - [ ] `cin`
+  - [x] `getline`
+  - [ ] `get`
+  - [ ] `cout`
+</details>
+
+<details>
+  <summary><strong>Q12: Which is the correct way to declare a float variable?</strong></summary>
+  
+  - [ ] `float x = 1;`
+  - [x] `float x = 1.0;`
+  - [ ] `float x = '1';`
+  - [ ] `float x = "1";`
+</details>
+
+<details>
+  <summary><strong>Q14: Complete the code to define a function that returns int.</strong></summary>
+  
+  ```cpp
+  ____ myFunction() {
+      return 5;
+  }
+  ```
+  - [x] `int`
+  - [ ] `void`
+  - [ ] `float`
+  - [ ] `double`
+</details>
+
+<details>
+  <summary><strong>Q16: Which of these is correct for dynamic memory allocation of an int?</strong></summary>
+  
+  - [x] `int *p = new int;`
+  - [ ] `int p = new int;`
+  - [ ] `int *p = int();`
+  - [ ] `pointer int p = new int;`
+</details>
+
+<details>
+  <summary><strong>Q18: Which is correct way to declare a one-dimensional array of size 5?</strong></summary>
+  
+  - [x] `int arr[5];`
+  - [ ] `int arr(5);`
+  - [ ] `array arr[5];`
+  - [ ] `int arr{};`
+</details>
+
+<details>
+  <summary><strong>Q20: Complete the code to read input from user into variable 'num'.</strong></summary>
+  
+  ```cpp
+  ____ num;
+  ```
+  - [x] `cin >>`
+  - [ ] `cout <<`
+  - [ ] `scanf()`
+  - [ ] `get()`
+</details>
+
+<details>
+  <summary><strong>Q22: Which of these is correct for defining a constant in C++?</strong></summary>
+  
+  - [x] `const int x = 10;`
+  - [ ] `int const x;`
+  - [ ] `int x = constant 10;`
+  - [ ] `define x = 10;`
+</details>
+
+<details>
+  <summary><strong>Q24: Which operator is used for accessing members of a structure through a pointer?</strong></summary>
+  
+  - [x] `->`
+  - [ ] `.`
+  - [ ] `*`
+  - [ ] `#`
+</details>
+
+<details>
+  <summary><strong>Q26: Complete the for loop header.</strong></summary>
+  
+  ```cpp
+  for(____) {
+      cout << i;
+  }
+  ```
+  - [x] `int i=0; i<5; i++`
+  - [ ] `i=0; i<5; i++`
+  - [ ] `int i<5; i++`
+  - [ ] `for i=0 to 5`
+</details>
+
+<details>
+  <summary><strong>Q28: Which function frees dynamically allocated memory?</strong></summary>
+  
+  - [x] `delete`
+  - [ ] `free()`
+  - [ ] `clear()`
+  - [ ] `deallocate()`
+</details>
+
+<details>
+  <summary><strong>Q30: Complete the code to open a file for writing.</strong></summary>
+  
+  ```cpp
+  ofstream file;
+  file.____("data.txt");
+  ```
+  - [x] `open`
+  - [ ] `read`
+  - [ ] `write`
+  - [ ] `getline`
+</details>
+
+<details>
+  <summary><strong>Q32: Which of the following is correct for declaring a double variable?</strong></summary>
+  
+  - [x] `double num = 3.14;`
+  - [ ] `double num = '3.14';`
+  - [ ] `double num = 3;`
+  - [ ] `int num = 3.14;`
+</details>
+
+<details>
+  <summary><strong>Q34: Complete the code to read a character from user.</strong></summary>
+  
+  ```cpp
+  char ch;
+  ____ >> ch;
+  ```
+  - [x] `cin`
+  - [ ] `cout`
+  - [ ] `getline`
+  - [ ] `scanf()`
+</details>
+
+<details>
+  <summary><strong>Q36: Which of the following is correct for a two-dimensional array of 2x3?</strong></summary>
+  
+  - [x] `int arr[2][3];`
+  - [ ] `int arr[3][2];`
+  - [ ] `int arr[2,3];`
+  - [ ] `array arr[2][3];`
+</details>
+
+<details>
+  <summary><strong>Q38: Which keyword defines a variable that keeps its value between function calls?</strong></summary>
+  
+  - [x] `static`
+  - [ ] `local`
+  - [ ] `global`
+  - [ ] `dynamic`
+</details>
+
+<details>
+  <summary><strong>Q40: Complete the code to define a function that returns nothing.</strong></summary>
+  
+  ```cpp
+  ____ myFunction() {
+      cout << "Hello";
+  }
+  ```
+  - [x] `void`
+  - [ ] `int`
+  - [ ] `double`
+  - [ ] `float`
+</details>
+
+<details>
+  <summary><strong>Q42: Which of these operators is used for incrementing a value by 1?</strong></summary>
+  
+  - [x] `++`
+  - [ ] `--`
+  - [ ] `+=`
+  - [ ] `=+`
+</details>
+
+<details>
+  <summary><strong>Q44: Which stream is used to write data to a file?</strong></summary>
+  
+  - [x] `ofstream`
+  - [ ] `ifstream`
+  - [ ] `cin`
+  - [ ] `cout`
+</details>
+
+<details>
+  <summary><strong>Q46: Complete code to include iomanip header.</strong></summary>
+  
+  ```cpp
+  ____
+  ```
+  - [x] `#include <iomanip>`
+  - [ ] `#include <iomanip.h>`
+  - [ ] `#include <iostream>`
+  - [ ] `#include <math.h>`
+</details>
+
+<details>
+  <summary><strong>Q48: Which of the following is correct to declare an enum?</strong></summary>
+  
+  - [x] `enum Color {Red, Green, Blue};`
+  - [ ] `enum Color = {Red, Green, Blue};`
+  - [ ] `enum Color();`
+  - [ ] `enum Color[] = {Red, Green, Blue};`
+</details>
+
+<details>
+  <summary><strong>Q50: Complete code to deallocate dynamic memory.</strong></summary>
+  
+  ```cpp
+  int *ptr = new int;
+  ____ ptr;
+  ```
+  - [x] `delete`
+  - [ ] `free`
+  - [ ] `clear`
+  - [ ] `remove`
+</details>
+
+<details>
+  <summary><strong>Q52: Which is correct way to declare a pointer to double?</strong></summary>
+  
+  - [x] `double *ptr;`
+  - [ ] `double &ptr;`
+  - [ ] `pointer double ptr;`
+  - [ ] `double ptr;`
+</details>
 
 ---
 
